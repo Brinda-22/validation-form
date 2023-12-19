@@ -1,0 +1,46 @@
+/* Add Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* Add your custom styles here */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right, lightpink, lightblue, lightgray);
+  /* Add other background properties as needed */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff; /* Add a background color for better readability */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#errorContainer {
+  color: #dc3545;
+  margin-top: 10px;
+}
